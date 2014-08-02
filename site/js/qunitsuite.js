@@ -6,5 +6,5 @@ test('Hello', function() {
 	var car1 = new app.Car();
 	var expected = {carKind: '', maxCapacity:0, rentalFee: 0};
 	console.log(car1.toJSON());
-	ok(car1.toJSON() === expected, 'Car initialize');
+	deepEqual(car1.toJSON(), expected, 'Car initialize');
 })
