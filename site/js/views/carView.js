@@ -1,3 +1,5 @@
+var app = app || {};
+
 	app.CarView = Backbone.View.extend({
 		tagName: 'div',
 
