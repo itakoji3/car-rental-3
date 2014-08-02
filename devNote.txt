@@ -1,0 +1,5 @@
+
+
+Note: 表示のきっかけ - app.js で carsView を生成する（initialize で render）
+Note: Collection>>render と renderCarを分離するか
+
