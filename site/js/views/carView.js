@@ -6,7 +6,7 @@ var app = app || {};
 		template: _.template($('#carTemplate').html()),
 
         events: {
-        	'click .delete': 'deleteCar'
+        	'click .deleteCar': 'deleteCar'
         },
 
 		render: function() {

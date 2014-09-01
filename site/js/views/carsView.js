@@ -11,7 +11,7 @@ app.CarsView = Backbone.View.extend({
     },
 
     events: {
-    	'click #add': 'addCar'
+    	'click #addCar': 'addCar'
     },
 
     addCar: function(e) {
@@ -19,7 +19,7 @@ app.CarsView = Backbone.View.extend({
 
     	var formData = {};
 
-    	$('#addCar div p').children('input').each(function(i, el) {
+    	$('#addCarMaster div p').children('input').each(function(i, el) {
     		console.log($(el).val());
     		if ($(el).val() != '') {
     			formData[el.id] = $(el).val();
